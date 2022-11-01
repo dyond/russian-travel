@@ -1,0 +1,11 @@
+.cover{
+  min-height: 740px;
+  max-width: 1184px;
+  margin: 0 auto;
+  /* background-image: url(/images/__background.jpg); */
+  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5)), url('/images/__background.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  margin-bottom: 92px;
+}

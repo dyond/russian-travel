@@ -1,0 +1,5 @@
+.cover__background{
+  background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(/images/__background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

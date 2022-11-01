@@ -1,0 +1,8 @@
+.cover__background{
+  position: absolute;
+  min-height: 740px;
+    min-width: 1184px;
+  background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url(/images/__background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

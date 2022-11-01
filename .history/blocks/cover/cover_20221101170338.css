@@ -1,0 +1,7 @@
+.cover{
+  background-image: url(/images/__background.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  margin-top: 92px;
+}

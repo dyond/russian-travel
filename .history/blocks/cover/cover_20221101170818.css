@@ -1,0 +1,10 @@
+.cover{
+  min-height: 740px;
+  max-width: 1184px;
+  margin: 0 auto;
+  background-image: url(/images/__background.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 92px;
+}

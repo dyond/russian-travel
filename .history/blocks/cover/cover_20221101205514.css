@@ -1,0 +1,19 @@
+.cover{
+  d
+  min-height: 740px;
+  min-width: 1184px;
+  margin: 0 auto;
+  background: linear-gradient(rgba(42,44,47, 0.3), rgba(42,44,47, 0.3)), url(/images/__background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-bottom: 92px;
+}
+
+.cover:hover{
+  /* background: #2A2C2F; */
+  background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42,44,47, 0.8)), url(/images/__background.jpg);
+  background-size: 100%;
+  
+  }

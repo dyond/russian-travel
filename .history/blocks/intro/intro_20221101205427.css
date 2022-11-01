@@ -1,0 +1,9 @@
+.intro{
+  /* width: 690px;
+  align-items: center;
+  margin: 0 auto;
+   */
+  display: grid;
+  grid-template-columns: 690px;
+  justify-content: center;
+}

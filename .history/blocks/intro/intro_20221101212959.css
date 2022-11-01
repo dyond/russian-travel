@@ -1,0 +1,12 @@
+.intro{
+  display: grid;
+  grid-template-columns: minmax(auto, 690px);
+  justify-content: center;
+  margin-bottom: 86px;
+}
+
+@media (max-width: 1024px) {
+  .intro{
+    justify-content: s;
+  }
+}

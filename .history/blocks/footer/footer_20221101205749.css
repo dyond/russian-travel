@@ -1,0 +1,8 @@
+.footer{
+  margin-bottom: 24px;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+}

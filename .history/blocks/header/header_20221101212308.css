@@ -1,0 +1,9 @@
+.header{
+  max-width: 1184px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-between;
+  align-items: end;
+  margin-bottom: 56px;
+}

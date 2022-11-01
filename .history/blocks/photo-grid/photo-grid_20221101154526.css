@@ -1,0 +1,5 @@
+.photo-grid{
+  display: grid;
+  grid-column: repeat;
+  /* grid-template-columns: 284px 284px 284px 284px; */
+}

@@ -1,0 +1,10 @@
+.photo-grid{
+  /* display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 86px; */
+  display: grid;
+  grid-template-columns: repeat(4, 284px);
+  grid-template-rows: repeat(3);
+}
