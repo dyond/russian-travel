@@ -1,0 +1,8 @@
+
+@media (max-width: 1024px) {
+  .lead__image {
+    justify-content: start;
+    margin-left: 48px;
+    margin-bottom: 92px;
+  }
+}

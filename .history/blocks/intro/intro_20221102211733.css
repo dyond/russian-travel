@@ -1,0 +1,22 @@
+.intro{
+  display: grid;
+  grid-template-columns: minmax(auto, 690px);
+  justify-content: center;
+  margin-bottom: 86px;
+}
+
+@media (max-width: 1024px) {
+  .intro{
+    justify-content: start;
+    margin-left: 48px;
+    margin-bottom: 92px;
+  }
+}
+
+@media (max-width: 7) {
+  .intro {
+    justify-content: start;
+    margin-left: 48px;
+    margin-bottom: 92px;
+  }
+}
