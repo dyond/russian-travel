@@ -1,8 +1,0 @@
-/* NORMALIZE */
-@import url(/vendor/normalize.css);
-
-/* ROOT */
-@import url(/blocks/root/);
-
-/* PAGE */
-@import url(/blocks/page/page.css);
