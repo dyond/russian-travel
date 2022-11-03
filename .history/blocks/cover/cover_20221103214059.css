@@ -3,7 +3,8 @@
   display: grid;
   margin: 0 auto;
   grid-template-rows: minmax(740px, auto);
-  background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)), url("/images/__background.jpg");
+  background: linear-gradient(rgba(42, 44, 47, 0.3), rgba(42, 44, 47, 0.3)),;
+  background:  url(../images/__background.jpg);
   background-size: 1182px;
   background-repeat: no-repeat;
   margin-bottom: 92px;
@@ -12,7 +13,7 @@
 }
 
 .cover:hover {
-  background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url("/images/__background.jpg");
+  background: linear-gradient(rgba(42, 44, 47, 0.8), rgba(42, 44, 47, 0.8)), url(./images/__background.jpg);
   background-size: 1182px;
 }
 
