@@ -1,6 +1,0 @@
-@media (max-width: 320px) {
-  .footer__links {
-    grid-template-columns: 186px;
-    grid-template-rows: repeat(6, 30px);
-  }
-}

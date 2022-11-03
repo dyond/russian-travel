@@ -1,7 +1,0 @@
-.footer{
-  max-width: 1184 ;
-  margin-bottom: 24px;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  justify-content: space-between;
-}
