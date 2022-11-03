@@ -1,0 +1,24 @@
+.cover__background{
+  position: absolute;
+  max-width: 1184px;
+  z-index: 0;
+  opacity: 0.7;
+  transition: opacity .5s ease-out;
+}
+
+.cover__background:hover{
+  opacity: 0.2;
+}
+
+@media (max-width: 1024px) {
+  .cover {
+    max-width: 1;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover {
+    /* grid-template-rows: minmax(200px, auto); */
+    margin-bottom: 64px;
+  }
+}

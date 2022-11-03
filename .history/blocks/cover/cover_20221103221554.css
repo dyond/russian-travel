@@ -9,15 +9,23 @@
   align-items: center;
 }
 
+@media (max-width: 1024px) {
+  .cover {
+    grid-template-rows: 640px;
+  }
+}
+
 @media (max-width: 768px) {
   .cover {
+    grid-template-rows: 480px;
     margin-bottom: 88px;
   }
 }
 
 @media (max-width: 320px) {
   .cover {
-    grid-template-rows: minmax(200px, auto);
-    margin-bottom: 64px;
+    grid-template-rows: 200;
+      grid-template-rows: minmax(200px, auto);
+      margin-bottom: 64px;
   }
 }

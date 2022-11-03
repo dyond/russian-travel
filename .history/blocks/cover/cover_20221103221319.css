@@ -3,11 +3,12 @@
   max-width: 1184px;
   display: grid;
   margin: 0 auto;
-  grid-template-rows: 740px;
+  grid-template-rows: minmax(740px, auto);
   margin-bottom: 92px;
   text-align: center;
   align-items: center;
 }
+
 
 @media (max-width: 768px) {
   .cover {
@@ -17,7 +18,6 @@
 
 @media (max-width: 320px) {
   .cover {
-    grid-template-rows: minmax(200px, auto);
-    margin-bottom: 64px;
+      margin-bottom: 64px;
   }
 }
