@@ -1,9 +1,0 @@
-.place__website{
-  align-self: end;
-  Ъ
-
-@media (max-width: 320px) {
-  .place__website {
-    margin-left: 16px;
-  }
-}
