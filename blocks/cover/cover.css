@@ -1,24 +1,42 @@
-
 .cover{
+  display: block;
   position: relative;
-  max-width: 1184px;
-  display: grid;
-  margin: 0 auto;
-  grid-template-rows: 740px;
-  margin-bottom: 92px;
-  text-align: center;
-  align-items: center;
+  background: url(/images/__background.png) no-repeat center center;
+  background-size: contain;
+  margin-bottom: 64px;
 }
 
-@media (max-width: 768px) {
+.cover:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(42, 44, 47, .3);
+  z-index: 2;
+}
+.cover:hover::after{
+  background: rgba(42,44,47, .8);
+}
+
+
+@media screen and (min-width: 768px) {
   .cover {
-    margin-bottom: 88px;
+    margin-bottom: 88px; 
+ }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin-bottom: 92px;
   }
 }
 
-@media (max-width: 320px) {
+@media screen and (min-width: 1280px) {
   .cover {
-    grid-template-rows: minmax(200px, auto);
-    margin-bottom: 64px;
+    margin-bottom: 86px;   
+    background-size: 1184px;
   }
 }
+

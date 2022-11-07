@@ -4,12 +4,7 @@
   font-size: 12px;
   line-height: 12px;
   letter-spacing: 2px;
+  margin-bottom: 12px;
   color: #AAAAAA;
-  align-items: end;
 }
 
-@media (max-width: 320px) {
-  .place__url-heading {
-    margin-bottom: 12px;
-  }
-}
