@@ -1,7 +1,7 @@
 .cover{
   display: block;
   position: relative;
-  background: url(/images/__background.png) no-repeat center center;
+  background: url(../../images/__background.png) no-repeat center center;
   background-size: contain;
   margin-bottom: 64px;
 }
@@ -35,7 +35,7 @@
 
 @media screen and (min-width: 1280px) {
   .cover {
-    margin-bottom: 86px;
+    margin-bottom: 86px;   
     background-size: 1184px;
   }
 }
