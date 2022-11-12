@@ -35,7 +35,9 @@
 
 @media screen and (min-width: 1280px) {
   .cover {
-    margin-bottom: 86px;
+    max-width: 1184px;
+    margin: 0 auto;
+    margin-bottom: 86px;   
     background-size: 1184px;
   }
 }

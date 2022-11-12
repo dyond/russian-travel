@@ -25,6 +25,7 @@
 
 @media screen and (min-width: 1280px) {
   .intro {
+    max-width: 690px;
     justify-content: center;
     margin-bottom: 86px;
   }

@@ -18,6 +18,7 @@
 
 @media screen and (min-width: 1280px) {
   .lead {
-    margin-bottom: 86px;
+    min-width: 984px;
+    margin: 56px 148px 86px 148px;
   }
 }
