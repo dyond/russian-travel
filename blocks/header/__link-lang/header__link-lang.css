@@ -6,6 +6,10 @@
   margin-bottom: 4px;
 }
 
+.header__lang-link:hover{
+  cursor: pointer;
+}
+
 .header__lang-link a{
   color: #FFFFFF;
   text-decoration: none;
